@@ -1,0 +1,176 @@
+body{
+    background-color: #fbf9f9;
+    width: 75%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    margin-top: 150px;
+    font-family: cursive;
+}
+.create
+{
+  float: left;
+  width: 45%;
+  height: 100%;
+  margin-left: 200px;
+  align-items: center;
+    text-align: center;
+  background-color: white;
+  border-radius: 15px 0px 0px 15px;
+  box-shadow: 10px 10px 10px 10px rgb(209, 208, 208);
+  
+}
+
+.main
+  {
+    float: right;
+    border-radius: 0px 15px 15px 0px;
+    
+    background-color: rgb(136, 245, 209);
+    width: 33%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .content{
+    font-size: 20px;
+    padding-top: 2px;
+    text-align: center;
+    margin-top: 90px;
+  }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .h1{
+    text-align: center;
+    color: rgb(53, 162, 126);
+  }
+  h1
+  {
+    text-align: center;
+  }
+  .center
+  {
+    
+    margin-left:150px;
+    width: 80%;
+    margin-bottom: 150px;
+    
+  }
+
+  .btn1 
+  {
+    align-items: center;
+    border-radius: 75px;
+    padding: 10px;
+    margin-left: 18px;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    
+  }
+  
+  .btn
+  {
+    align-items: center;
+    border-radius: 75px;
+    margin-top: 10px;
+    margin-bottom: 90px;
+    width: 50%;
+    padding: 10px;
+    
+  }
+  .btn1:hover{
+    background-color: aliceblue;
+  }
+  .input-icons i {
+    position: absolute;
+}
+ 
+.input-icons {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+ 
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+ 
+.input-field {
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.acc{
+    margin-bottom: 50px;
+}
+
+p
+{
+    margin-top: 0px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .create{
+        width: 100%;
+        margin-left:2px ;
+        border-radius: 0px;
+    }
+    .btn1
+    {
+        
+        margin-left: 100px;
+    }
+
+    .main {
+        width: 100%;
+        border-radius: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .create {
+        width: 100%;
+        text-align: center;
+        margin-left: 2px;
+        border-radius: 0px;
+    }
+    .btn1{
+        margin-left: 15px;
+    }
+
+    .main {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .main {
+        width: 49%;
+    }
+
+    
+    .input-field {
+        width: 250px;
+        padding: 10px;
+        text-align: center;
+        
+    }
+
+    .create {
+        width: 50%;
+    }
+}
